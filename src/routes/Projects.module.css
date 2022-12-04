@@ -1,0 +1,6 @@
+.projects {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
