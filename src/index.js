@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 import './index.css';
 import Root from './routes/Root';
-import AlbumApp from './components/AlbumApp'
 import Projects from './routes/Projects';
 
 const router = createBrowserRouter([
@@ -22,10 +21,6 @@ const router = createBrowserRouter([
             }
         ],
     },
-    {
-        path: "album-app",
-        element: <AlbumApp />
-    }
 ])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
