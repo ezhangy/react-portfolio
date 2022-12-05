@@ -2,7 +2,7 @@ a {
     display: block;
     text-decoration: none;
     color: black;
-    opacity: 0.8;
+    opacity: 1;
 }
 
 a:hover {
@@ -15,7 +15,6 @@ a:hover {
 }
   
 .navbar {
-    background-color: lightblue;
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 2rem;
@@ -31,4 +30,9 @@ a:hover {
     justify-self: start;
     font-size: 24px;
     font-weight: bold;
+    color: rgb(244, 142, 19)
+}
+
+#name:hover {
+    opacity: 0.9;
 }
