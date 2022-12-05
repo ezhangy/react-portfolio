@@ -18,7 +18,19 @@ const router = createBrowserRouter([
             {
                 path: "about",
                 element: <>This will be an about page</>
-            }
+            },
+            {
+                path: "site-redesign",
+                element: <>This will be a page about responsive redesign</>
+            },
+            {
+                path: "album-app",
+                element: <>This will be a page about the album app</>
+            },
+            {
+                path: "designing-roomkast",
+                element: <>This will be a page about designing roomkast</>
+            },
         ],
     },
 ])
