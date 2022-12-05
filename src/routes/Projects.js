@@ -31,7 +31,7 @@ const Projects = () => {
 
   return (
     <div className="page">
-      <h1>Projects</h1>
+      <h1>My Projects</h1>
       <div className={styles.projects}>
       {project_data.map((project) => 
         <ProjectItem

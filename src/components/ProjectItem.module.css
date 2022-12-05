@@ -1,0 +1,42 @@
+img {
+  max-width: 100%;
+  max-width: 100%;
+  width: 28rem;
+  height: 18rem;
+  object-fit: cover;
+}
+
+h2 {
+  width: fit-content;
+  position: relative;
+}
+
+h2::after {
+  content: "";
+  background-color: rgb(244, 142, 19);
+  position: absolute;
+  left: 0;
+  top: 1.3em;
+  width: 100%;
+  height: 3px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2rem;
+  transition-property: transform;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+
+.img-container{
+  padding: 2rem;
+  border-radius: 0.5rem;
+  background-color: #a7d9f7;
+}
+
+
+.item:hover {
+  transform: scale(1.02);
+}
