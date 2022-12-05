@@ -14,7 +14,7 @@ h2 {
 
 h2::after {
   content: "";
-  background-color: rgb(244, 142, 19);
+  background-color: #ff7300;
   position: absolute;
   left: 0;
   top: 1.3em;
