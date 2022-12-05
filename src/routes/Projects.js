@@ -9,34 +9,42 @@ const Projects = () => {
     {
       id: 0,
       title: "Responsive Redesign",
-      img: iterativeImg,
-      description: "Description of responsive redesign"
+      img: redesignImg,
+      description: "Description of responsive redesign",
+      link: "site-redesign"
     },
     {
       id: 1,
       title: "React development",
       img: albumImg,
-      description: "Description of react development"
+      description: "Description of react development",
+      link: "album-app"
     },
     {
       id: 2,
       title: "Iterative design",
-      img: redesignImg,
-      description: "Description of iterative design"
-    }
+      img: iterativeImg,
+      description: "Description of iterative design",
+      link: "designing-roomkast"
+    },
   ]
 
   return (
-    <div className={`page ${styles.projects}`}>
+    <div className="page">
+      <h1>Projects</h1>
+      <div className={styles.projects}>
       {project_data.map((project) => 
         <ProjectItem
           key={project.id}
           title={project.title}
           thumbnail={project.img}
           descr={project.description}
+          link={project.link}
          />
       )}
     </div>
+    </div>
+    
   )
 }
 
