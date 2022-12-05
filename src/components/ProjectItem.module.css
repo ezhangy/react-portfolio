@@ -1,9 +1,10 @@
 img {
   max-width: 100%;
   max-width: 100%;
-  width: 28rem;
-  height: 18rem;
+  width: 32rem;
+  height: 20rem;
   object-fit: cover;
+  border-radius: 2rem;
 }
 
 h2 {
@@ -27,16 +28,19 @@ h2::after {
   padding: 0 2rem;
   transition-property: transform;
   transition-duration: 0.2s;
-  transition-timing-function: ease-in;
+  transition-timing-function: ease-in-out;
+  cursor: pointer;
 }
 
 .img-container{
-  padding: 2rem;
   border-radius: 0.5rem;
-  background-color: #a7d9f7;
 }
 
 
-.item:hover {
-  transform: scale(1.02);
+.item:nth-child(odd):hover {
+  transform: rotate(2deg);
+}
+
+.item:nth-child(even):hover {
+  transform: rotate(-2deg);
 }
