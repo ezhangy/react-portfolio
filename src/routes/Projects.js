@@ -1,6 +1,6 @@
 import ProjectItem from "../components/ProjectItem"
 import styles from "./Projects.module.css"
-import iterativeImg from "../assets/project_thumbnails/iterative.png"
+import iterativeImg from "../assets/project_thumbnails/roomkast.svg"
 import albumImg from "../assets/project_thumbnails/album.png"
 import redesignImg from "../assets/project_thumbnails/redesign.png"
 
@@ -15,17 +15,17 @@ const Projects = () => {
     },
     {
       id: 1,
-      title: "React development",
+      title: "AlbumFinder",
       img: albumImg,
       description: "Description of react development",
       link: "album-app"
     },
     {
       id: 2,
-      title: "Iterative design",
+      title: "Roomkast App",
       img: iterativeImg,
-      description: "Description of iterative design",
-      link: "designing-roomkast"
+      description: "Prototyping a roommate matching app",
+      link: "roomkast-app"
     },
   ]
 

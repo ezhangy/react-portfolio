@@ -8,6 +8,7 @@ import {
 import './index.css';
 import Root from './routes/Root';
 import Projects from './routes/Projects';
+import RoomkastApp from './routes/RoomkastApp';
 
 const router = createHashRouter([
     {
@@ -28,8 +29,8 @@ const router = createHashRouter([
                 element: <>This will be a page about the album app</>
             },
             {
-                path: "designing-roomkast",
-                element: <>This will be a page about designing roomkast</>
+                path: "roomkast-app",
+                element: <RoomkastApp />
             },
         ],
     },
