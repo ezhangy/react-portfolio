@@ -1,4 +1,4 @@
-img {
+.item img {
   max-width: 100%;
   max-width: 100%;
   width: 32rem;
@@ -7,19 +7,26 @@ img {
   border-radius: 2rem;
 }
 
-h2 {
+.item h2 {
   width: fit-content;
   position: relative;
 }
 
-h2::after {
+.item h2::after {
   content: "";
   background-color: #ff7300;
   position: absolute;
   left: 0;
   top: 1.3em;
-  width: 100%;
+  width: 0%;
   height: 3px;
+  transition-property: width;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+}
+
+.item:hover > h2::after { 
+  width: 100%; 
 }
 
 .item {
@@ -35,7 +42,6 @@ h2::after {
 .img-container{
   border-radius: 0.5rem;
 }
-
 
 .item:nth-child(odd):hover {
   transform: rotate(2deg);

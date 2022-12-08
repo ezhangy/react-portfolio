@@ -7,7 +7,7 @@ const ProjectItem = ({ title, thumbnail, descr, link}) => {
   
   return (
     <div 
-      className={`${styles.item} ${styles['glow-on-hover']}`}
+      className={styles.item}
       onClick={handleClick(link)}
     >
       <h2>{title}</h2>
