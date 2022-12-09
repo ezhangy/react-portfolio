@@ -1,16 +1,33 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.d632b242.css",
-    "main.js": "/react-portfolio/static/js/main.1a52426c.js",
-    "static/media/redesign.png": "/react-portfolio/static/media/redesign.298bb9df98de8a98b0f4.png",
+    "main.css": "/react-portfolio/static/css/main.0b425050.css",
+    "main.js": "/react-portfolio/static/js/main.72b1c4cf.js",
+    "static/media/wireframes_2.svg": "/react-portfolio/static/media/wireframes_2.f0200e803da0793545a23b325e39738c.svg",
+    "static/media/roomkast_long.png": "/react-portfolio/static/media/roomkast_long.ea3e6386361623103dfc.png",
+    "static/media/redesign.png": "/react-portfolio/static/media/redesign.84b10b67eb7dbf7ff3f2.png",
+    "static/media/wireframes_3.svg": "/react-portfolio/static/media/wireframes_3.49665a578c20c701ff99867a326b49d2.svg",
+    "static/media/wireframes_1.svg": "/react-portfolio/static/media/wireframes_1.2221ab4189983e6240032afbd05cf286.svg",
     "static/media/album.png": "/react-portfolio/static/media/album.a433c3024fa9a49e3a5e.png",
-    "static/media/iterative.png": "/react-portfolio/static/media/iterative.c14d0045ae4dc4066e6f.png",
+    "static/media/roomkast.png": "/react-portfolio/static/media/roomkast.336ae0ea7a20a1ae6aaf.png",
+    "static/media/sketches_2.svg": "/react-portfolio/static/media/sketches_2.8b46c23818d8fae35abef37de8b7efc0.svg",
+    "static/media/happiness.png": "/react-portfolio/static/media/happiness.ef89332bce7e0b3b1ae3.png",
+    "static/media/sketches_3.svg": "/react-portfolio/static/media/sketches_3.2afb023779511bdbd039ebbedc186cb7.svg",
+    "static/media/sketches_1.svg": "/react-portfolio/static/media/sketches_1.20d37d6f916bd511d0636914d9ff89da.svg",
+    "static/media/critique_4.svg": "/react-portfolio/static/media/critique_4.95064669d2af0357331c987d7c6d56ab.svg",
+    "static/media/critique_5.svg": "/react-portfolio/static/media/critique_5.8fd23922830300a54969d6a578078173.svg",
+    "static/media/critique_2.svg": "/react-portfolio/static/media/critique_2.7ff4695b8c81e6f4721ffa28fc1f8f01.svg",
+    "static/media/album_long.png": "/react-portfolio/static/media/album_long.2adec9744d542b73d08a.png",
+    "static/media/critique_3.svg": "/react-portfolio/static/media/critique_3.ca785e87acdf05f12e745c7f561add99.svg",
+    "static/media/critique_7.svg": "/react-portfolio/static/media/critique_7.bc3b63429504bfbd73a9f16eb5b0729f.svg",
+    "static/media/critique_6.svg": "/react-portfolio/static/media/critique_6.f153e67456887e2e5782e57ba6a058f4.svg",
+    "static/media/profile.jpg": "/react-portfolio/static/media/profile.dc95181df774bbaa6436.jpg",
+    "static/media/Bitter-VariableFont_wght.ttf": "/react-portfolio/static/media/Bitter-VariableFont_wght.2079c94d0d6679106bfe.ttf",
     "index.html": "/react-portfolio/index.html",
-    "main.d632b242.css.map": "/react-portfolio/static/css/main.d632b242.css.map",
-    "main.1a52426c.js.map": "/react-portfolio/static/js/main.1a52426c.js.map"
+    "main.0b425050.css.map": "/react-portfolio/static/css/main.0b425050.css.map",
+    "main.72b1c4cf.js.map": "/react-portfolio/static/js/main.72b1c4cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.d632b242.css",
-    "static/js/main.1a52426c.js"
+    "static/css/main.0b425050.css",
+    "static/js/main.72b1c4cf.js"
   ]
 }
