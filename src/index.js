@@ -9,6 +9,10 @@ import './index.css';
 import Root from './routes/Root';
 import Projects from './routes/Projects';
 import RoomkastApp from './routes/RoomkastApp';
+import "./fonts/Bitter-VariableFont_wght.ttf";
+import About from './routes/About';
+import HappinessStory from './components/HappinessStory';
+import AlbumApp from './routes/AlbumApp';
 
 const router = createHashRouter([
     {
@@ -18,7 +22,7 @@ const router = createHashRouter([
             { index: true, element: <Projects />},
             {
                 path: "about",
-                element: <>This will be an about page</>
+                element: <About />
             },
             {
                 path: "site-redesign",
@@ -26,11 +30,15 @@ const router = createHashRouter([
             },
             {
                 path: "album-app",
-                element: <>This will be a page about the album app</>
+                element: <AlbumApp/>
             },
             {
                 path: "roomkast-app",
                 element: <RoomkastApp />
+            },
+            {
+                path: "happiness-story",
+                element: <HappinessStory />
             },
         ],
     },

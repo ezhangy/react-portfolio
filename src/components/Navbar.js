@@ -9,7 +9,9 @@ const Navbar = () => {
     
     return (
         <div className={styles.navbar}>
-            <NavLink id={styles.name} to={`/`}>Lizzy Zhang</NavLink>
+            <div className={styles.test}>
+                <NavLink id={styles.name} to={`/`}>lizzy zhang</NavLink>
+            </div> 
             <div className={styles.links}>
                 <NavLink 
                     to={`/`}
@@ -17,7 +19,7 @@ const Navbar = () => {
                         isActive ? activeClassName : undefined
                     }
                 >
-                    Projects
+                    works
                 </NavLink>
                 <NavLink 
                     to={`about`}
@@ -25,7 +27,7 @@ const Navbar = () => {
                         isActive ? activeClassName : undefined
                     }
                 >
-                    About
+                    about
                 </NavLink>   
             </div>
         </div>     
