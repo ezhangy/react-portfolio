@@ -10,11 +10,11 @@ const ProjectItem = ({ title, thumbnail, descr, link}) => {
       className={styles.item}
       onClick={handleClick(link)}
     >
-      <h2>{title}</h2>
-      <p>{descr}</p>
       <div className={styles['img-container']}>
         <img src={thumbnail}/>
       </div>
+      <h2>{title}</h2>
+      <p>{descr}</p>
     </div>
   )
 }
