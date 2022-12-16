@@ -77,8 +77,10 @@ const RoomkastApp = () => {
               <p>Each member of our team created a set of sketches detailing what we imagined the app to look like in order to generate a diversity of approaches to solving Roomkast’s goals.</p>
           <ImageSection 
             data={sketchImgSectionData}
-            separate={true}
-            width={"75%"}
+            margin={0}
+            width={"100%"}
+            separate={false}
+            frame={true}
           />
         </div>
         <div className="project-section">
@@ -93,8 +95,10 @@ const RoomkastApp = () => {
           <p>From our discussion, we combined our sketches to produce a final set of wireframes we would use to create our high-fidelity prototype.</p>
           <ImageSection 
             data={wireframesImgSectionData} 
-            separate={false}
+            margin={0}
             width={"100%"}
+            separate={false}
+            frame={true}
           />
         </div>
         <div className="project-section">
@@ -155,7 +159,8 @@ const RoomkastApp = () => {
           </div>
         </div>
           <div className="project-section">
-            <h2>Design Solutions</h2>
+          <h2 class="small-section-title">Design Solutions</h2>
+          <h2 class="big-section-title">Our Final Prototype</h2>
             <p>Here’s our final design file and revised prototype. Please try it out!</p>
             <div className="image-container">
               <iframe 
@@ -171,7 +176,8 @@ const RoomkastApp = () => {
             </div>
         </div>
         <div className="project-section">
-          <h2>What I Learned</h2>
+          <h2 class="small-section-title">reflection</h2>
+          <h2 class="big-section-title">Lessons Learned</h2>
           <p>I had a ton of fun working with a team brainstorming and refining designs to create a solution for Roomkast. Here were my main takeaways:</p>
               <ol>
                   <li><b>Don't reinvent the wheel.</b> It might be fun to try to brainstorm designs that might bring about the next revolution in user interfaces, but especially as someone at the beginning of their UI/UX journey, leveraging tried-and-true conventions (such as the the bottom navbar) allows me to create the best experience for my users.</li>
