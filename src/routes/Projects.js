@@ -1,9 +1,11 @@
+import { HashLink } from 'react-router-hash-link';
 import ProjectItem from "../components/ProjectItem"
 import styles from "./Projects.module.css"
 import iterativeImg from "../assets/project_thumbnails/roomkast.png"
 import albumImg from "../assets/project_thumbnails/album.png"
 import redesignImg from "../assets/project_thumbnails/redesign.png"
 import happinessImg from "../assets/project_thumbnails/happiness.png"
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const Projects = () => {
   const categories = ["design", "development"]
@@ -42,20 +44,25 @@ const Projects = () => {
     },
   ]
 
+  useScrollToTop()
   return (
     <div className="page">
       <div className={styles["intro-text-container"]}>
         <h1 id={styles["hello-text"]}>hi there, i'm <b>lizzy.</b></h1>
         <p>I'm a <b>developer</b> and <b>designer</b> passionate about creating joyful tools and experiences.</p>
-        <div id={styles["see-work-wrapper"]}>
-          <h2>works ↓</h2>
-        </div>
+        <HashLink to="#projects-start" id={styles["see-work-wrapper"]} className="simple-button"> 
+          works ↓
+        </HashLink>
       </div>
       
       <div className={styles.projects}>
-        {categories.map((category) => (
+        {categories.map((category, index) => (
           <div className="projectCategory" key={category}>
-            <h2 className={styles["category-title"]}>{category}</h2>
+            <h2 
+              className={styles["category-title"]} 
+              id={index === 0 ? "projects-start" : ""}>
+                {category}
+            </h2>
             <div className={styles["projects-list"]}>
               {project_data.filter((project) => {
                   return category === project.category

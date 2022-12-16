@@ -1,6 +1,7 @@
 import ProjectBanner from "../components/ProjectBanner"
 import bannerImg from "../assets/project_thumbnails/album_long.png"
 import HeaderSection from "../components/HeaderSection"
+import useScrollToTop from '../hooks/useScrollToTop';
 
 const AlbumApp = () => {
   const headerInfo = {
@@ -10,6 +11,8 @@ const AlbumApp = () => {
     team: ["just me!"],
     timeline: "2 weeks"
   }
+
+  useScrollToTop()
   return (
     <div>
       <ProjectBanner imgSrc={bannerImg}/>

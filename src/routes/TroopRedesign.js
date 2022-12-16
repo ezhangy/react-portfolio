@@ -10,6 +10,8 @@ import mobileHifi from "../assets/troop/hifi/mobile.svg"
 import HeaderSection from "../components/HeaderSection"
 import ProjectBanner from "../components/ProjectBanner"
 import ImageSection from "../components/ImageSection"
+import useScrollToTop from '../hooks/useScrollToTop';
+import SeeMoreButton from "../components/SeeMoreButton"
 
 const TroopRedesign = () => {
   const headerInfo = {
@@ -20,6 +22,7 @@ const TroopRedesign = () => {
     timeline: "2 weeks"
   }
 
+  useScrollToTop()
   return (
     <div>
       <ProjectBanner imgSrc={heroImage} />
@@ -77,25 +80,36 @@ const TroopRedesign = () => {
             separate={false}
             frame={false}
           />
-          <div className="img-section img-and-text">
-            <p className="text-wrapper-left">This is a placeholder tip about my experience using figma. This is a placeholder tip about my experience using figma</p>
+          <div className="inline-section img-and-text">
+            <div className="text-wrapper-left">
+              <h2 className="small-section-title">tablet prototype</h2>
+              <p>This is a placeholder tip about my experience using figma. This is a placeholder tip about my experience using figma</p>
+            </div>
             <div className="img-wrapper img-wrapper-right">
               <img src={tabletHifi} />
             </div>
           </div>
-          <div className="img-section img-and-text">
-            <p className="text-wrapper-left">This is a placeholder tip about my experience using figma. This is a placeholder tip about my experience using figma. </p>
+          <div className="inline-section img-and-text">
+            <div className="text-wrapper-left">
+              <h2 className="small-section-title">mobile prototype</h2>
+              <p>This is a placeholder tip about my experience using figma. This is a placeholder tip about my experience using figma</p>
+            </div>
             <div className="img-wrapper img-wrapper-right">
               <img src={mobileHifi} />
             </div>
           </div>
         </div>
         <div className="project-section">
-          <h2 className="small-section-title">responsive redesigning</h2>
+          <h2 className="small-section-title">responsive redesign</h2>
           <h2 className="big-section-title">Building the Final Website</h2>
+          <div className="card-button">
+            <div className="img-wrapper">
+              img
+            </div>
+          </div>
+          <SeeMoreButton />
         </div>
       </div>
-
     </div>
   )
 }

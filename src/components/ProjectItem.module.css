@@ -4,7 +4,7 @@
   object-fit: cover;
 }
 
-.item .img-container {
+.img-container {
   min-width: 8rem; 
   min-height: 5rem;
   width: 32rem;
@@ -16,23 +16,6 @@
   width: fit-content;
   position: relative;
 }
-
-/* .item h2::after {
-  content: "";
-  background-color: #ff7300;
-  position: absolute;
-  left: 0;
-  top: 1.3em;
-  width: 0%;
-  height: 3px;
-  transition-property: width;
-  transition-duration: 0.4s;
-  transition-timing-function: ease-out;
-}
-
-.item:hover > h2::after { 
-  width: 100%; 
-} */
 
 .item {
   display: flex;
@@ -55,12 +38,3 @@
   opacity: 70%;
   font-style: italic;
 }
-
-/* 
-.item:nth-child(odd):hover {
-  transform: rotate(2deg);
-}
-
-.item:nth-child(even):hover {
-  transform: rotate(-2deg);
-} */

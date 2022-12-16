@@ -7,7 +7,7 @@ const ProjectItem = ({ title, thumbnail, descr, link}) => {
   
   return (
     <div 
-      className={styles.item}
+      className={`card-button ${styles.item}`}
       onClick={handleClick(link)}
     >
       <div className={styles['img-container']}>

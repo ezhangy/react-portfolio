@@ -4,7 +4,7 @@ const ImageSection = ({ data, margin, width, separate, frame }) => {
                             : "img-wrapper"
 
   return (
-    <div className="img-section" style={{marginRight: margin, marginLeft: margin}}>
+    <div className="inline-section" style={{marginRight: margin, marginLeft: margin}}>
       {separate 
         ? data.map((imgData) => (
               <div key={imgData.id} className={wrapperClasses} style={{width: width}}> 

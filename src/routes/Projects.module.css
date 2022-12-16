@@ -43,13 +43,8 @@
 
 #see-work-wrapper {
   position: absolute;
+  font-size: 1.5rem;
   top: 80vh;
   margin: auto;
   align-self: center;
-}
-
-#see-work-wrapper h2 {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue';
-  color: var(--text-accent-color)
 }

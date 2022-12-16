@@ -16,6 +16,8 @@ import critique5 from "../assets/roomkast/critique_images/critique_5.svg"
 import critique6 from "../assets/roomkast/critique_images/critique_6.svg"
 import critique7 from "../assets/roomkast/critique_images/critique_7.svg"
 import ImageSection from "../components/ImageSection"
+import useScrollToTop from '../hooks/useScrollToTop';
+import SeeMoreButton from "../components/SeeMoreButton"
 
 const RoomkastApp = () => {
   const critiquePaths = [critique2, critique3, critique4, critique5, critique6, critique7]
@@ -59,6 +61,7 @@ const RoomkastApp = () => {
     }
   ]
 
+  useScrollToTop()
   return (
     <div>
       <ProjectBanner imgSrc={roomkastImg}/>
@@ -184,6 +187,7 @@ const RoomkastApp = () => {
                   <li><b>Get as many fresh eyes on your designs as you can. </b>After too long staring at our prototypes, everything starts to bleed together. Even a remote usability test from one user was invaluable for detecting issues with our interface that had become invisible to us.</li>
                   {/* <li><b>Don't be afraid to throw things out</b></li> */}
               </ol>
+              <SeeMoreButton />
         </div>
       </div>
     </div>

@@ -14,6 +14,7 @@ import About from './routes/About';
 import HappinessStory from './components/HappinessStory';
 import AlbumApp from './routes/AlbumApp';
 import TroopRedesign from './routes/TroopRedesign';
+import ScrollToTop from './hooks/useScrollToTop';
 
 const router = createHashRouter([
     {
