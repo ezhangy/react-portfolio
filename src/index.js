@@ -13,6 +13,7 @@ import "./fonts/Bitter-VariableFont_wght.ttf";
 import About from './routes/About';
 import HappinessStory from './components/HappinessStory';
 import AlbumApp from './routes/AlbumApp';
+import TroopRedesign from './routes/TroopRedesign';
 
 const router = createHashRouter([
     {
@@ -26,7 +27,7 @@ const router = createHashRouter([
             },
             {
                 path: "site-redesign",
-                element: <>This will be a page about responsive redesign</>
+                element: <TroopRedesign />
             },
             {
                 path: "album-app",
